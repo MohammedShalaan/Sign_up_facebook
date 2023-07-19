@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9fa;
+
+}
+
+.contaner {
+    padding: 15px;
+    width: 432px;
+    height: 550.6px;
+    border-radius: 15px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: #ffffff;
+    transition: 0.7s all ease-in-out;
+}
+
+/* const elemint style  */
+
+a {
+    text-decoration: none;
+}
+
+hr {
+
+    height: 1px;
+    background-color: #d3d6da;
+    border: none;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 33px;
+}
+
+p {
+    margin: 8px 0 10px 0;
+
+}
+
+fieldset {
+    margin: 10px 0 10px 0;
+    padding: 0;
+    border: none;
+}
+
+legend {
+    margin-bottom: 4px;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+input {
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f5f6f7;
+    border: .4px solid #d3d6da;
+}
+
+
+input[type="radio"] {
+    float: right;
+}
+
+
+/* div and calss edit style */
+
+
+/* Head style */
+.pHead {
+    margin-top: 4px;
+    opacity: 0.8;
+    font-size: 15px;
+}
+
+.head .left {
+    width: 60%;
+    float: left;
+
+}
+
+.head .right {
+    float: right;
+    width: 5%;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* Body Form style */
+
+/* first section */
+
+fieldset input:nth-child(1) {
+    margin-right: 5px;
+}
+
+
+
+.inputHeadSectionOne {
+    width: 48.8%;
+    margin-top: 10px;
+}
+
+.inputHeadSectionOneFullWidth {
+
+    width: 100%;
+}
+
+/* berthDate section  */
+
+.brithSection {
+    width: 100%;
+}
+
+.BirthSelect {
+    width: 32%;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: .4px solid #d3d6da;
+    float: left;
+}
+
+.BirthOne,
+.BirthTwo {
+    margin-right: 8px;
+}
+
+
+/* Gender section */
+
+.GenderSection {
+    width: 100%;
+}
+
+.redioGen {
+    width: 32%;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: .4px solid #d3d6da;
+    float: left;
+
+}
+
+.oneRedio,
+.twoRedio {
+    margin-right: 8px;
+}
+
+/* end section  */
+
+.bodyPargraph {
+    font-size: 11px;
+    color: rgb(104, 104, 104);
+}
+
+.therdSection .centerButton {
+    text-align: center;
+    margin: 20px 0 30px 0;
+}
+
+button {
+
+    background-color: rgb(6, 158, 52);
+    width: 50%;
+    border: none;
+    font-weight: 650;
+    font-size: 17px;
+    color: white;
+    border-radius: 7px;
+    padding: 9px 0;
+    transition: 0.3s all ease-out;
+
+}
+
+button:hover {
+    background-color: rgb(21, 185, 70);
+    color: rgb(243, 243, 243);
+
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleIndex.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="contaner" id="contaner">
+        <!-- the head section -->
+        <div class="head">
+            <div class="left">
+                <h1> Sign Up</h1>
+                <p class="pHead">It's quick and easy.</p>
+            </div>
+            <div class="right">
+                <a onclick="myFunction()" style="cursor: grab;">
+                    <img width="15px" src="exit.png" alt="exit">
+                </a>
+
+            </div>
+        </div>
+
+        <!-- clear flot left or right -->
+        <div class="clear"></div>
+        <hr>
+
+        <!-- other div to inputs -->
+        <div class="bodyForm">
+            <form action="">
+                <fieldset>
+                    <input type="text" class="inputHeadSectionOne " name="FirstName" id="FirstName"
+                        placeholder="First Name">
+                    <input type="text" class="inputHeadSectionOne" name="secendName" id="secendName"
+                        placeholder="Surname">
+                    <input type="tel" class="inputHeadSectionOne inputHeadSectionOneFullWidth" name="telphone"
+                        id="telphone  " placeholder="Mobile number or email address">
+                    <input type="password" class="inputHeadSectionOne inputHeadSectionOneFullWidth" name="password"
+                        id="password" placeholder="New password">
+                </fieldset>
+                <fieldset class="brithSection">
+                    <legend>Date of birth <a href="#"><img src="icon.png" alt="icon" width="11" height="11"></a>
+                    </legend>
+
+                    <select name="day" id="day" class="BirthSelect BirthOne">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                    </select>
+
+                    <select name="month" id="month" class="BirthSelect BirthTwo">
+                        <option value="may">may</option>
+                        <option value="jun">jun</option>
+                        <option value="jul">jul</option>
+                        <option value="oct">oct</option>
+                        <option value="dec">dec</option>
+                        <option value="Nov">Nov</option>
+                        <option value="may">may</option>
+                    </select>
+
+                    <select name="year" id="year" class="BirthSelect BirthThree">
+                        <option value="1992">1992</option>
+                        <option value="1993">1993</option>
+                        <option value="1994">1994</option>
+                        <option value="1995">1995</option>
+                        <option value="1996">1996</option>
+                        <option value="1997">1997</option>
+                        <option value="1998">1998</option>
+                    </select>
+
+                </fieldset>
+                <fieldset class="GenderSection">
+                    <legend>Gender <a href="#"><img src="icon.png" alt="icon" width="11" height="11"></a></legend>
+                    <div class="redioGen oneRedio">
+                        <label for="female">Female</label>
+                        <input type="radio" name="Gender" id="female" value="female">
+                    </div>
+                    <div class="redioGen twoRedio">
+                        <label for="male">Male</label>
+                        <input type="radio" name="Gender" id="male" value="male">
+                    </div>
+                    <div class="redioGen threeRedio">
+                        <label for="Custom">Custom</label>
+                        <input type="radio" name="Gender" id="Custom" value="Custom">
+                    </div>
+
+                </fieldset>
+                <div class="therdSection">
+
+
+                    <p class="bodyPargraph">People who use our service may have uploaded your contact information to
+                        Facebook.<a href="#">Learn more.</a> </p>
+                    <p class="bodyPargraph">By clicking Sign Up, you agree to our <a href="#">Terms</a>,<a
+                            href="#">Privacy Policy</a> and <a href="#">Cookies</a>
+                        Policy.
+                        You may receive SMS
+                        notifications from us and can opt out at any time.</p>
+                    <div class="centerButton">
+                        <button type="submit"> Sign Up</button>
+                    </div>
+
+
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+
+    <script>
+
+        function myFunction() {
+            document.getElementById('contaner').style.display = 'none';
+        }
+
+    </script>
+</body>
+
+</html>
